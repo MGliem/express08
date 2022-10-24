@@ -63,7 +63,7 @@ CREATE TABLE users (
     lastname varchar(255) NOT NULL,
     email varchar(255) UNIQUE NOT NULL,
     city varchar(255) DEFAULT NULL,
-    language varchar(255) DEFAULT NULL,BIGINT,
+    language varchar(255) DEFAULT NULL,
     hashedPassword varchar(255) NOT NULL
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8;
 
